@@ -8,7 +8,7 @@ import java.util.Properties;
 public class Pipeline {
     //сангууд тогтмол хувьсагч болгон дуулан заралсан
     private static Properties properties;
-    private static String propertiesName = "tokenize, ssplit, pos, lemma";
+    private static String propertiesName = "tokenize, ssplit, pos, lemma, ner, parse, sentiment";
     private static StanfordCoreNLP stanfordCoreNLP;
 
     //пайп бүхий байгуулагч
