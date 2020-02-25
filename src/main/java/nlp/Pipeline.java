@@ -2,7 +2,6 @@ package nlp;
 
 
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
-
 import java.util.Properties;
 
 public class Pipeline {
@@ -12,7 +11,7 @@ public class Pipeline {
     private static StanfordCoreNLP stanfordCoreNLP;
 
     //пайп бүхий байгуулагч
-    private Pipeline(){
+    Pipeline(){
 
     }
     // статик төрөдөөр пропэртийс ээ зарлаг
@@ -28,6 +27,8 @@ public class Pipeline {
         }
         return stanfordCoreNLP;
     }
+
+
 
 }
 

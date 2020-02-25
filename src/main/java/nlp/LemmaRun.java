@@ -5,9 +5,6 @@ import edu.stanford.nlp.pipeline.CoreDocument;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import javax.swing.*;
-import java.awt.*;
 import java.util.List;
 import java.util.Scanner;
 
@@ -34,5 +31,6 @@ public class LemmaRun {
         }
 
     }
+
 }
 
